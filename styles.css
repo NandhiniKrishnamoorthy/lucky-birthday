@@ -27,26 +27,24 @@ nav {
     font-weight: bold;
 }
 
-.container {
-    background-color: var(--container-color);
-    width: 30%;
-    margin-top: 1rem;
-    margin: auto;
+.container {    
+    width: 300px;
+    margin: auto auto;
     text-align: center;
-    padding:1.5rem;
+    padding: 1.5rem;
 }
 
 label,
 input {    
     display: block;
     margin-top: 0.5rem;    
-    width: 60%;
+    width: 100%;
     margin:auto;
     padding:1.5rem;
 }
 
 label {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.3rem;
 }
 
