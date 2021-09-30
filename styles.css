@@ -86,3 +86,21 @@ input {
     border-width: medium;
     border-radius: 5px;
 }
+
+.list{
+    list-style:none; 
+    text-align:center;
+}
+
+.list-inline {
+    display: inline;
+    padding:1rem;
+}
+
+.footer-background{
+    margin-top:6rem;
+}
+
+.footer-icon {
+    width: 2rem;
+}
