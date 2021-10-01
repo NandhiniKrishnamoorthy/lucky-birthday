@@ -22,11 +22,16 @@ checkButton.addEventListener("click", function checkBirthDateLucky() {
     var dob_sum = calculateSum(dateOfBirth);
     var luckynum = luckyNumber.value;
     if (dateOfBirth && luckynum) {
-        if (dob_sum % luckynum === 0) {
-            showMessage("Wohoo! Your Birthday Date is Lucky! 🥳");
+        if (luckynum > 0) {
+            if (dob_sum % luckynum === 0) {
+                showMessage("Wohoo! Your Birthday Date is Lucky! 🥳");
+            }
+            else {
+                showMessage("Oops! Your BirthDate is not Lucky! 😕");
+            }
         }
         else {
-            showMessage("Oops! Your BirthDate is not Lucky! 😕");
+            showMessage("Please enter positive lucky number");
         }
     }
     else {
